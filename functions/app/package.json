@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-docs-samples-functions-ocr",
+  "version": "0.0.1",
+  "private": true,
+  "license": "Apache-2.0",
+  "author": "Google Inc.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GoogleCloudPlatform/nodejs-docs-samples.git"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "scripts": {
+    "test": "mocha test/*.test.js --timeout=20000"
+  },
+  "dependencies": {
+    "@google-cloud/pubsub": "^2.1.0",
+    "@google-cloud/storage": "^5.1.1",
+    "@google-cloud/translate": "^6.0.0",
+    "@google-cloud/vision": "^2.1.0",
+    "nconf": "^0.10.0"
+  },
+  "devDependencies": {
+    "mocha": "^8.0.1",
+    "sinon": "^9.0.2"
+  }
+}
