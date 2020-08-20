@@ -1,11 +1,11 @@
 {
   "name": "ml-ocr-lang-detection",
   "version": "1.0.0",
-  "description": "",
+  "description": "Upload images, extract text, translate text",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Charlie Astrada",
   "license": "ISC"
 }
