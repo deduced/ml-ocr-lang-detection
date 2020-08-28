@@ -1,5 +1,9 @@
 # OCR To Text Detection and Translation
 
+## NOTE
+
+- It would be fairly straight-forward to modify this code to use [Google Drive's push API](https://developers.google.com/drive/api/v3/push) rather than a storage bucket.
+
 This app performs OCR text extraction, language detection, and translation using Google Cloud Platform's services. Namely:
 
 - Google Cloud Storage: uploading image files and storing resulting translation text documents;
@@ -96,4 +100,3 @@ gcloud functions deploy ocr-save \
    `gcloud functions logs read --limit 100`
 
 3. View saved translations in the Cloud Storage bucket that you set up to save resulting translations to. You can do by [viewing Storage Browser from Google Cloud Platform's Console](https://console.cloud.google.com/storage/browser)
-
