@@ -1,8 +1,10 @@
 # OCR To Text Detection and Translation
 
-## NOTE
+### NOTE
 
 - It would be fairly straight-forward to modify this code to use [Google Drive's push API](https://developers.google.com/drive/api/v3/push) rather than a storage bucket.
+
+## How It Works
 
 This app performs OCR text extraction, language detection, and translation using Google Cloud Platform's services. Namely:
 
